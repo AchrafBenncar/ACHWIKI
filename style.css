@@ -37,6 +37,12 @@ input{
   font-size: 18px ;
   outline: 0;
 }
+.error-msg{
+  color: #e42626;
+  font-size: 13px;
+  text-align: center;
+  margin: 10px 0;
+}
 .loader{
   display: none;
   justify-content: center;
@@ -60,4 +66,24 @@ input{
   to{
     transform: translateY(10px);
   }
+}
+.result-display{
+  display: block;
+  max-width: 600px;
+  margin: 10px auto 20px;
+}
+.result-item{
+  margin-bottom: 20px;
+}
+.result-link{
+  color: #cc1729;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.result-title{
+  font-size: 23px;
+}
+.result-snippet{
+  font-size: 14px;
+  overflow-wrap: break-word;
 }
